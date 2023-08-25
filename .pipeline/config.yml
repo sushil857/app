@@ -22,7 +22,7 @@ stages:
     sonarExecuteScan: false
   Release:
     cloudFoundryDeploy: true
-    cfApiEndpoint: "https://api.cf.us10.hana.ondemand.com"
+    cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
     cfOrg: "appdevelopment"
     cfSpace: "development"
     cfAppName: "app"
